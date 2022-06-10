@@ -15,6 +15,10 @@ class CODEBLOCKER_API AMyLevelScriptActor : public ALevelScriptActor
 	GENERATED_BODY()
 
 protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+protected:
 	UFUNCTION(BlueprintCallable, Category = LevelBlueprint)
 	void DoSomething();
 

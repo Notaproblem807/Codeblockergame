@@ -34,4 +34,10 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Papersprite")
 	class UPaperSpriteComponent* Papersprite;
 
+	//movement
+	FVector locationofplayer;
+	float speed;
+	void Moveright(float axis);
+	void Moveleft(float axis);
+
 };

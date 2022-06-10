@@ -2,7 +2,13 @@
 
 
 #include "MyLevelScriptActor.h"
+#include "Kismet/GameplayStatics.h"
 
+
+
+void AMyLevelScriptActor::BeginPlay() {
+	Super::BeginPlay();
+}
 
 void AMyLevelScriptActor::DoSomething()
 {
