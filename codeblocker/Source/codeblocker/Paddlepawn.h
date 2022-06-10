@@ -26,4 +26,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//scenecomponent
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "scenecomp")
+	class USceneComponent* Scene;
+
+	//paper sprite
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Papersprite")
+	class UPaperSpriteComponent* Papersprite;
+
 };
