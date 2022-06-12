@@ -3,11 +3,15 @@
 
 #include "MyLevelScriptActor.h"
 #include "Kismet/GameplayStatics.h"
+#include "Paddlepawn.h"
+#include "Engine/World.h"
 
 
 
 void AMyLevelScriptActor::BeginPlay() {
 	Super::BeginPlay();
+	
+
 }
 
 void AMyLevelScriptActor::DoSomething()
